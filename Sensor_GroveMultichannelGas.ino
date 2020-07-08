@@ -25,7 +25,7 @@
 //
 #define MCGS_I2C_ADDRESS 0x04
 
-#define MQTT_PUBLISH_INTERVAL 6000          // Time interval for MQTT publish in milliseconds
+#define MQTT_PUBLISH_INTERVAL 60000          // Time interval for MQTT publish in milliseconds
 #define MQTT_CLIENT_NAME "MCGS"
 
 #define NH3_TOPIC "gassensor1/nh3"          // MQTT topic for NH3 (Ammonia) value
